@@ -1,0 +1,10 @@
+name: first-workflow-blyat
+on: workflow_dispatch
+jobs: 
+  first-job:
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Print name
+        run: echo "The bomb has been planted"
+      - name: Print bye
+        run: echo "Terrorists win xD"
