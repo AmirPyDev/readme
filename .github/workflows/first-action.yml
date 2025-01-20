@@ -1,10 +1,41 @@
-name: first-workflow-blyat
+name: tealclimate
 on: workflow_dispatch
-jobs: 
+jobs:
   first-job:
     runs-on: ubuntu-latest
-    steps: 
-      - name: Print name
-        run: echo "The bomb has been planted"
-      - name: Print bye
-        run: echo "Terrorists win xD"
+    steps:
+      - name: print tealclimate
+      - run: echo "teaclclimate"
+      - name: workflow succeeded
+      - run: echo "workflow successfully ran"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# name: first-workflow-blyat
+# on: workflow_dispatch
+# jobs: 
+#   first-job:
+#     runs-on: ubuntu-latest
+#     steps: 
+#       - name: Print name
+#         run: echo "The bomb has been planted"
+#       - name: Print bye
+#         run: echo "Terrorists win xD"
