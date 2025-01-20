@@ -5,9 +5,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: print tealclimate
-      - run: echo "teaclclimate"
+        run: echo "teaclclimate"
       - name: workflow succeeded
-      - run: echo "workflow successfully ran"
+        run: echo "workflow successfully ran"
 
 
 
